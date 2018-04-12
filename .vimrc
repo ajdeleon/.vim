@@ -20,11 +20,13 @@ set nowrap
 set noshowmode
 set splitbelow
 set splitright
-set wildignore+=*/node_modules/*
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+set wildignore+=*/node_modules/*,*/elm-stuff/*
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|elm-stuff\'
 let g:airline#extensions#tabline#enabled = 1
+let g:elm_setup_keybindings = 0
+let g:elm_format_autosave = 1
+let g:commandTTraverseSCM = 'pwd'
 
-noremap ww :w<cr>
 map <Leader>[ :bn<cr>
 map <Leader>] :bp<cr>
 map <Leader>d :bd<cr>
@@ -52,9 +54,6 @@ Plug 'vim-airline/vim-airline'
 
 "Atom one dark inspired
 Plug 'joshdick/onedark.vim'
-
-"Fuzzy search
-Plug 'kien/ctrlp.vim'
 
 "Command-t for easy file navigation
 Plug 'wincent/command-t'
