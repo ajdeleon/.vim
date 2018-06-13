@@ -21,6 +21,7 @@ set noshowmode
 set splitbelow
 set splitright
 set wildignore+=*/node_modules/*,*/elm-stuff/*
+set backspace=indent,eol,start
 
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|elm-stuff\'
 let g:airline#extensions#tabline#enabled = 1
