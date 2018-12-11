@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/adrian/coding/next/hello-next'
-let g:netrw_dirhist_2='/Users/adrian/coding/next/hello-next/pages'
-let g:netrw_dirhist_3='/Users/adeleon/coding/testcli/test'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/adeleon/coding/reason/reason-todo/src/components'
+let g:netrw_dirhist_2='/Users/adeleon/coding/reason/reason-todo'
+let g:netrw_dirhist_3='/Users/adeleon/coding/reason/reason-todo/src'
+let g:netrw_dirhist_4='/Users/adeleon/coding/reason/reason-todo/src/components'
